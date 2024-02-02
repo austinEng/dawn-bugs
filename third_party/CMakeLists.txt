@@ -24,4 +24,5 @@ add_definitions(
   -Wno-unknown-warning-option  # SPIRV-Tools
 )
 
+set(DAWN_FETCH_DEPENDENCIES ON)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/dawn EXCLUDE_FROM_ALL)
